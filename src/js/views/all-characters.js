@@ -29,7 +29,7 @@ export const AllCharacters = () => {
     }
     return (
         <div className="text-center mt-5">
-            <h1>Hello AllCharacters!</h1>
+            <h1 className="mb-5">Hello AllCharacters!</h1>
             <div className="row d-flex justify-content-center">
                 {
                     characters.map((item) => {
