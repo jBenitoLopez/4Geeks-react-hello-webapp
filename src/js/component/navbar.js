@@ -10,6 +10,9 @@ export const Navbar = () => {
 			<Link to="/all-characters">
 				<span className="navbar-brand mb-0 h1">All Characters</span>
 			</Link>
+			<Link to="/character">
+				<span className="navbar-brand mb-0 h1">Single Character</span>
+			</Link>
 			<div className="ml-auto">
 				<Link to="/demo">
 					<button className="btn btn-primary">Check the Context in action</button>
